@@ -1,0 +1,27 @@
+{
+  "name": "basic-auth-header",
+  "main": "lib/basic-auth-header.js",
+  "version": "0.0.0",
+  "description": "Creates a basic auth header value.",
+  "author": "Joseph Spencer",
+  "scripts": {
+    "pretest": "jshint index.js",
+    "test": "istanbul cover _mocha -- -r should -R spec && cat ./coverage/lcov.info | coveralls -v && rm -rf coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/node-basic-auth-header.git"
+  },
+  "keywords": [],
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/node-basic-auth-header/issues"
+  },
+  "devDependencies": {
+    "should": "~4.0.4",
+    "mocha": "~1.20.1",
+    "jshint": "~2.5.1",
+    "istanbul": "~0.2.11"
+  }
+}

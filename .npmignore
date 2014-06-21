@@ -1,0 +1,5 @@
+/coverage/
+.gitignore
+.jshint*
+.travis.yml
+*.swp
