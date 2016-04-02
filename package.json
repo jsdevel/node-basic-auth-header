@@ -1,6 +1,6 @@
 {
   "name": "basic-auth-header",
-  "main": "lib/basic-auth-header.js",
+  "main": "index.js",
   "version": "1.0.0",
   "description": "Creates a basic auth header value.",
   "author": "Joseph Spencer",
